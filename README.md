@@ -8,6 +8,6 @@
 4. Выигрывайте, если угадаете правильный номер!
 
 # Запустите игру
-``bash
-chmod +x game.sh
-./game.sh
+ ``bash
+ chmod +x game.sh
+ ./game.sh
