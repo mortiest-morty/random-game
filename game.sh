@@ -3,12 +3,6 @@
 echo -e "\nIt's a good game!\nTry to know what number computer could guess (number 1-100)\n"
 echo -e "\nEnter a number, please : "
 
-random_num(){
-    local nach=1
-    local end=100
-    echo $((RANDOM % (end - nach + 1) + nach))
-}
-
 x=$(random_num)
 
 read num
